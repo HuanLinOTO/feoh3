@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/cli/utils/getApis.ts"],
+  "sourcesContent": ["import fs from \"fs/promises\"\r\nexport default async () => {\r\n    return await fs.readdir(\"./src/backend/apis\");\r\n}"],
+  "mappings": "uwBAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAe,0BACRC,EAAQ,IAAYC,EAAA,wBACvB,OAAO,MAAM,EAAAC,QAAG,QAAQ,oBAAoB,CAChD",
+  "names": ["getApis_exports", "__export", "getApis_default", "__toCommonJS", "import_promises", "getApis_default", "__async", "fs"]
+}

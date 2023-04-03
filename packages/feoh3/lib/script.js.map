@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/cli/script.ts"],
+  "sourcesContent": ["import cac from \"cac\";\r\nimport dev from \"./dev\";\r\nimport log from \"./utils/formatLog\";\r\nimport text from \"./utils/text\";\r\nvar cli = cac();\r\n\r\ncli.command(\"[act]\").action((act) => {\r\n    if(act == \"dev\") dev();\r\n    else {\r\n        log(`${text.logo}`);\r\n        log(text.tip(`use ${text.code(\"feoh3 dev\")} to run your app in dev mode`))\r\n    }\r\n})\r\n\r\ncli.help()\r\ncli.parse()"],
+  "mappings": "wdAAA,IAAAA,EAAgB,kBAChBC,EAAgB,oBAChBC,EAAgB,gCAChBC,EAAiB,2BACbC,KAAM,EAAAC,SAAI,EAEdD,EAAI,QAAQ,OAAO,EAAE,OAAQE,GAAQ,CAC9BA,GAAO,SAAO,EAAAC,SAAI,MAEjB,EAAAC,SAAI,GAAG,EAAAC,QAAK,MAAM,KAClB,EAAAD,SAAI,EAAAC,QAAK,IAAI,OAAO,EAAAA,QAAK,KAAK,WAAW,+BAA+B,CAAC,EAEjF,CAAC,EAEDL,EAAI,KAAK,EACTA,EAAI,MAAM",
+  "names": ["import_cac", "import_dev", "import_formatLog", "import_text", "cli", "cac", "act", "dev", "log", "text"]
+}

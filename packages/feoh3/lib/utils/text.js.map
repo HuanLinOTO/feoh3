@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/cli/utils/text.ts"],
+  "sourcesContent": ["import chalk from \"chalk\"\r\n\r\nexport default {\r\n    tip: (str: string) => chalk.greenBright.bold(' \u2192 ')+str,\r\n    logo: chalk.blueBright.bold(\"\uD83D\uDE80 Fe(OH)\u2083\"),\r\n    dev: chalk.blueBright.bold(\"running in DEV MODE\"),\r\n    url: chalk.green.underline,\r\n    num: chalk.greenBright.bold,\r\n    hot: chalk.redBright.bold,\r\n    code: chalk.bold.blackBright.bgGray\r\n}"],
+  "mappings": "0jBAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAAI,EAAkB,oBAEXF,EAAQ,CACX,IAAMG,GAAgB,EAAAC,QAAM,YAAY,KAAK,UAAK,EAAED,EACpD,KAAM,EAAAC,QAAM,WAAW,KAAK,wBAAY,EACxC,IAAK,EAAAA,QAAM,WAAW,KAAK,qBAAqB,EAChD,IAAK,EAAAA,QAAM,MAAM,UACjB,IAAK,EAAAA,QAAM,YAAY,KACvB,IAAK,EAAAA,QAAM,UAAU,KACrB,KAAM,EAAAA,QAAM,KAAK,YAAY,MACjC",
+  "names": ["text_exports", "__export", "text_default", "__toCommonJS", "import_chalk", "str", "chalk"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["export interface Apis {\r\n\r\n}\r\n\r\nexport interface Args {\r\n\r\n}\r\n\r\nexport interface Ret {\r\n\r\n}\r\n\r\nexport interface Client {\r\n    getData<K extends keyof Apis>(event: K,args: Args[K]): Ret[K] \r\n}\r\n\r\nexport const client: Client = {\r\n    getData(event,args): any{\r\n        return ;\r\n    }\r\n}"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,YAAAE,IAAA,eAAAC,EAAAH,GAgBO,MAAME,EAAiB,CAC1B,QAAQE,EAAMC,EAAU,CAExB,CACJ",
+  "names": ["src_exports", "__export", "client", "__toCommonJS", "event", "args"]
+}

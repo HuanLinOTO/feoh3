@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/cli/utils/formatLog.ts"],
+  "sourcesContent": ["export default (str: any) => {\r\n    console.log(\"  \"+str);\r\n    \r\n}"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,aAAAE,IAAA,eAAAC,EAAAH,GAAA,IAAOE,EAASE,GAAa,CACzB,QAAQ,IAAI,KAAKA,CAAG,CAExB",
+  "names": ["formatLog_exports", "__export", "formatLog_default", "__toCommonJS", "str"]
+}

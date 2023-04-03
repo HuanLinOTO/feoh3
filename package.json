@@ -1,0 +1,22 @@
+{
+  "name": "feoh3-monorepo",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/feoh3",
+    "packages/feoh3-client"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "dep": "yakumo upgrade",
+    "pub": "yakumo publish",
+    "bump": "yakumo version"
+  },
+  "dependencies": {
+    "yakumo": "^0.3.10",
+    "yakumo-esbuild": "^0.3.22",
+    "yakumo-publish": "^0.3.4",
+    "yakumo-upgrade": "^0.3.3",
+    "yakumo-version": "^0.3.4"
+  }
+}
