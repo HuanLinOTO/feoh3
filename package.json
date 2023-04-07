@@ -7,7 +7,7 @@
     "packages/feoh3-client"
   ],
   "scripts": {
-    "build": "node build.js",
+    "build": "node build.ts",
     "dep": "yakumo upgrade",
     "pub": "yakumo publish",
     "bump": "yakumo version"
